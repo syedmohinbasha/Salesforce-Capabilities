@@ -1,0 +1,9 @@
+.sf/
+.sfdx/
+.localdevserver/
+node_modules/
+coverage/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db

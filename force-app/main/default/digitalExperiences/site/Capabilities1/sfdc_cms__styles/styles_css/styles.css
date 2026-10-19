@@ -1,0 +1,22 @@
+/*
+ * Capabilities showcase: the page is drawn entirely by c-capability-showcase.
+ * Match its page background so no white edges show around it.
+ */
+html,
+body {
+    height: 100%;
+}
+
+html {
+    background: oklch(0.975 0.005 250);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: oklch(0.17 0.015 255);
+    }
+}
+
+body {
+    margin: 0;
+}

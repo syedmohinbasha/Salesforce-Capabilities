@@ -1,0 +1,46 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { }
+          },
+          "definition" : "c:capabilityShowcase",
+          "id" : "b7c1e0d2-6a3f-4c58-9e21-3f0d8a7c5b14",
+          "type" : "component"
+        } ],
+        "id" : "5f3ba8fa-c3f1-4c91-a8bd-dfa1191d70ab",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "Real customer problems and the Salesforce capabilities we use to solve them.",
+            "dxpStyle" : { },
+            "pageTitle" : "Aquarient Technologies · Salesforce Capabilities",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "75bc2207-bf98-4e22-a94f-aa4c59e8c831",
+          "type" : "component"
+        } ],
+        "id" : "a4b6e988-e8b5-4071-8218-a8eba679e24a",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "db6df420-a898-43df-bd8f-a01578c276f6",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}
